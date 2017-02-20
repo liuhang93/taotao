@@ -18,6 +18,17 @@
         <module>taotao-manager-mapper</module>
         <module>taotao-manager-web</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.taotao</groupId>
+            <artifactId>taotao-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+        </plugins>
+    </build>
 
 
 </project>
