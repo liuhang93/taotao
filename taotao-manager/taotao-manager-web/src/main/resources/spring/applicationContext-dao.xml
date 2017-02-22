@@ -20,6 +20,7 @@
         <property name="configLocation" value="classpath:mybatis/taotao-manager-MybatisConfig.xml"/>
         <property name="dataSource" ref="dataSource"/>
     </bean>
+    <!--扫描mapper接口生成的代理对象放到spring容器中-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.taotao.manager.mapper"/>
     </bean>

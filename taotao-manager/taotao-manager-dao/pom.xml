@@ -11,6 +11,11 @@
 
     <artifactId>taotao-manager-dao</artifactId>
     <dependencies>
+        <dependency>
+            <groupId>com.taotao</groupId>
+            <artifactId>taotao-manager-pojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!--Mybatis相关-->
         <dependency>
             <groupId>org.mybatis</groupId>
@@ -31,5 +36,19 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
     </dependencies>
+
+    <!--指定打包的文件，把mapper包内的mapper.xml文件也打包-->
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
 
 </project>

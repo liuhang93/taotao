@@ -1,0 +1,10 @@
+package com.taotao.manager.service;
+
+import com.taotao.manager.pojo.TbItem;
+
+/**
+ * Created by liuhang on 2017/2/22.
+ */
+public interface ItemService {
+    TbItem getItemById(long itemId);
+}
