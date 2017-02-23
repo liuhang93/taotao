@@ -28,6 +28,7 @@
         <mysql.version>5.1.32</mysql.version>
         <slf4j.version>1.7.12</slf4j.version>
         <jackson.version>2.4.2</jackson.version>
+        <pagehelper.version>4.1.6</pagehelper.version>
     </properties>
 
     <!--集中依赖管理-->
@@ -64,6 +65,11 @@
                 <groupId>org.mybatis.generator</groupId>
                 <artifactId>mybatis-generator-core</artifactId>
                 <version>${mybatis.generator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper</artifactId>
+                <version>${pagehelper.version}</version>
             </dependency>
             <!--连接池-->
             <dependency>
