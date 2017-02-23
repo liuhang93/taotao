@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * Created by liuhang on 2017/2/22.
+ * 商品控制器
  */
 @Controller
 @RequestMapping("/item")
