@@ -12,11 +12,22 @@
 
     <artifactId>taotao-common</artifactId>
     <dependencies>
-        <!-- Jackson Json处理工具包 -->
+        <!-- Jackson Json处理工具包  -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
         </dependency>
+        <!--fastdfs工具包-->
+        <dependency>
+            <groupId>org.csource</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+        </dependency>
+        <!--单元测试-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-    
+
 </project>
