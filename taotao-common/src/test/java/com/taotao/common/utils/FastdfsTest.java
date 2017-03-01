@@ -11,7 +11,7 @@ import java.io.IOException;
 public class FastdfsTest {
     @Test
     public void testFastfsClient() throws IOException, MyException {
-        FastdfsClient client = new FastdfsClient("fastdfs.conf");
+        FastdfsClient client = new FastdfsClient("properties/fastdfs.conf");
         String uploadFile=client.uploadFile("/Users/liuhang/Pictures/weichatPay.png");
         System.out.println(uploadFile);
     }

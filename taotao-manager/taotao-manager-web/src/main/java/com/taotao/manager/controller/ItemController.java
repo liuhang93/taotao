@@ -33,4 +33,6 @@ public class ItemController {
                                              @RequestParam(defaultValue = "30") int rows) {
         return itemService.getItemList(page, rows);
     }
+
+
 }
